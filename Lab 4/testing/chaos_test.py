@@ -42,7 +42,7 @@ def main():
     if not alb_dns:
         sys.exit("ALB_DNS_NAME not found — run create_app_stack.sh first.")
 
-    slo_seconds = args.slo_seconds if args.slo_seconds is not None else float(env.get("RECOVERY_SLO_SECONDS", 180))
+    slo_seconds = args.slo_seconds if args.slo_seconds is not None else float(env.get("RECOVERY_SLO_SECONDS", 60))
 
     if args.tier == "uploader":
         port = env.get("UPLOADER_LISTENER_PORT", "8080")

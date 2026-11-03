@@ -129,12 +129,11 @@ VIEWER_USERDATA_B64=$(base64 < user-data-viewer.sh | tr -d '\n')
 
 cat > uploader-lt-data.json << EOF
 {
-  "ImageId": "$AMI_ID",
+  "ImageId": "$UPLOADER_AMI_ID",
   "InstanceType": "$INSTANCE_TYPE",
   "KeyName": "$KEY_NAME",
   "SecurityGroupIds": ["$APP_SECURITY_GROUP_ID"],
   "IamInstanceProfile": { "Name": "$UPLOADER_PROFILE_NAME" },
-  "UserData": "$UPLOADER_USERDATA_B64",
   "TagSpecifications": [
     { "ResourceType": "instance", "Tags": [{ "Key": "Name", "Value": "uploader-app" }] }
   ]
@@ -143,12 +142,11 @@ EOF
 
 cat > viewer-lt-data.json << EOF
 {
-  "ImageId": "$AMI_ID",
+  "ImageId": "$VIEWER_AMI_ID",
   "InstanceType": "$INSTANCE_TYPE",
   "KeyName": "$KEY_NAME",
   "SecurityGroupIds": ["$APP_SECURITY_GROUP_ID"],
   "IamInstanceProfile": { "Name": "$VIEWER_PROFILE_NAME" },
-  "UserData": "$VIEWER_USERDATA_B64",
   "TagSpecifications": [
     { "ResourceType": "instance", "Tags": [{ "Key": "Name", "Value": "viewer-app" }] }
   ]
