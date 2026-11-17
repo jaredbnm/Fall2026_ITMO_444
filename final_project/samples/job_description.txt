@@ -1,0 +1,16 @@
+Junior Cloud Engineer, Example Cloud Services
+
+We are looking for a Junior Cloud Engineer to help build and run services on AWS.
+
+What you will do
+- Build and maintain cloud infrastructure on AWS, including EC2, S3 and load balancers
+- Write Python scripts to automate routine tasks
+- Work with SQL databases and help keep them reliable
+- Write automated tests and document your work
+- Follow security best practices, including least privilege IAM
+
+What we are looking for
+- Working toward a degree in Computer Science or a related field
+- Experience with Python, SQL and Linux
+- Familiarity with AWS services and Git
+- Clear written communication and a habit of testing your work

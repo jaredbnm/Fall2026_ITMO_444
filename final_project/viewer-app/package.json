@@ -1,0 +1,14 @@
+{
+  "name": "resume-viewer",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/client-sns": "^3.600.0",
+    "@aws-sdk/s3-request-presigner": "^3.600.0",
+    "express": "^4.19.2"
+  }
+}

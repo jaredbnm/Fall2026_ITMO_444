@@ -1,0 +1,30 @@
+ADA STUDENT
+Chicago, IL | (312) 555-0100 | ada.student@example.edu | linkedin.com/in/adastudent
+
+EDUCATION
+Example University, Chicago, IL
+B.S. in Computer Science, expected May 2026. GPA 3.7
+Relevant coursework: Cloud Computing, Databases, Operating Systems, Computer Security
+
+EXPERIENCE
+Acme Corp, Chicago, IL
+Software Engineering Intern, May 2025 to August 2025
+- Wrote a Python script that builds weekly sales reports. It cut the report time from 5 hours to 3 hours.
+- Wrote SQL queries against a PostgreSQL database for the finance team.
+- Added unit tests to the reporting code.
+
+Campus Help Desk, Chicago, IL
+Student Technician, September 2023 to May 2025
+- Helped about 30 students and staff per week with laptop and network problems.
+- Wrote step by step guides for common problems.
+
+PROJECTS
+Two-tier file sharing app on AWS
+- Built a Node.js uploader and viewer on EC2 behind a load balancer, using S3 and IAM roles.
+
+ACTIVITIES
+Chess Club, treasurer, 2023 to 2025
+SKILLS
+
+Python, JavaScript, SQL, Git, Linux, AWS (EC2, S3, IAM)
+Interests: chess, cycling

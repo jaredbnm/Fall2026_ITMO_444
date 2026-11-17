@@ -1,0 +1,15 @@
+{
+  "name": "resume-uploader",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/client-ssm": "^3.600.0",
+    "docx": "^9.0.0",
+    "express": "^4.19.2",
+    "multer": "^2.0.0"
+  }
+}
